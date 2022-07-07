@@ -1,0 +1,63 @@
+.add-city{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#parrafoBoton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.add-city .field{
+    margin-top: 10px;
+}
+
+.messages-add-city{
+    display: block;
+    text-align: center;
+}
+
+#ingresarCiudad{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+p.success {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    background-color: var(--color-success);
+    text-align: center;
+}
+
+p.error {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    background-color: var(--color-error);
+    text-align: center;
+}
+
+p.warning {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    background-color: var(--color-warning);
+    text-align: center;
+}
